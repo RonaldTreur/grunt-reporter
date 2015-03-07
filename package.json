@@ -1,0 +1,38 @@
+{
+  "name": "grunt-reporter",
+  "description": "Take full control over Grunt's output. Customize each task's output to your liking.",
+  "version": "0.1.0",
+  "keywords": [
+    "grunt",
+    "restyle",
+    "reporter"
+  ],
+  "main": "tasks/reporter.js",
+  "author": {
+    "name": "Ronald Treur",
+    "email": "ronald@lostparticle.net",
+    "url": "http://lostparticle.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ronaldtreur/grunt-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ronaldtreur/grunt-reporter/issues",
+    "email": "ronald@lostparticle.net"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "homepage": "https://github.com/ronaldtreur/grunt-reporter",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-readme-generator": "^0.3.41"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

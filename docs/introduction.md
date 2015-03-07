@@ -1,0 +1,9 @@
+So Mr. [Front-End Operations Engineer](http://www.smashingmagazine.com/2013/06/11/front-end-ops/), here you finally are. You've created the most awesome Grunt workflow, using over a dozen awesome plugins. You are running them [concurrently](https://www.npmjs.com/package/grunt-concurrent), [timing](https://www.npmjs.com/package/time-grunt) them and maybe even offer some additional [options](http://gruntjs.com/api/grunt.option) for some much needed customization. Say what? You probable created several flows so different departments or experts can all contribute to your project in the best way possible.
+
+Your users love you for creating a fast and robust tool for them to build, distribute and add to your project. But unfortunately they don't have the slightest clue what is happening exactly when they run `grunt`. If something fails, they see no other way than to come knocking on your door, asking you to please help them out.
+
+Of course... It's almost always their own fault ;-) But you can't blame them; the output presented by Grunt is not always that obvious. After a good many cries for help, you might decide it's time to schedule a company/team-meeting. You will get to show off your accomplishments and -most importantly- explain everyone involved how it all works.
+
+But.. Wouldn't it be nice if you could somehow, easily manipulate Grunt's output so it would make more sense to those looking at it. If only the lines of text printed to the screen gave more insight into what is really going on. If only you could remove most of those lines so the important bits get to stand out and the perceived complexity would diminish.
+
+Perhaps you already looked at plugins like [grunt-attention](https://www.npmjs.com/package/grunt-attention) or [grunt-verbosity](https://www.npmjs.com/package/grunt-verbosity). Great tools, but not enough you say? Then perhaps it's time to install grunt-reporter and fix things properly!
